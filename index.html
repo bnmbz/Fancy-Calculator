@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS1</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="header"><h2>My APP</h2></header>
+    <main class="main">
+      <form action="#" id="myform">
+        <h1 class="headding">Calculator</h1>
+        <p class="name-input">
+          <!-- <label for="name">Name:</label>
+          <br /> -->
+          <input
+            type="text"
+            name="FirstName"
+            id="name"
+            placeholder="Please enter your name in here."
+            autofocus
+          />
+        </p>
+        <div class="number-field">
+          <p>
+            <input
+              type="number"
+              name="number1"
+              id="number1"
+              placeholder="Enter a number"
+              autocomplete="off"
+            />
+          </p>
+          <p>
+            <input
+              type="text"
+              name="op"
+              id="op"
+              placeholder="Enter an operational sign"
+              autocomplete="off"
+            />
+          </p>
+
+          <p>
+            <input
+              type="number"
+              name="number2"
+              id="number2"
+              placeholder="Enter a number"
+              autocomplete="off"
+            />
+          </p>
+          <div class="output"></div>
+        </div>
+        <button type="submit">Submit</button>
+        <button class="btn" type="button">Clear</button>
+
+      </form>
+    </main>
+    <script src="app.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
